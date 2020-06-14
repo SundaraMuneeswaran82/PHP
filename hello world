@@ -7,7 +7,7 @@
 
 	<?php
 
-		echo("HELLO WORLD THIS IS GVP, Welcome to the first PHP Programme");
+		echo("HELLO WORLD THIS IS GVP, Welcome to the first PHP Program");
 
 
 	?>
