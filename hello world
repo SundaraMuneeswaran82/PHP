@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1st PHP Site Example</title>
+</head>
+<body>
+
+	<?php
+
+		echo("HELLO WORLD THIS IS GVP, Welcome to the first PHP Programme");
+
+
+	?>
+
+</body>
+</html>
