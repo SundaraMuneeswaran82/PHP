@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP Site</title>
+</head>
+<body>
+
+	<?php
+
+		$name="GVP";
+		$age=20;
+
+		echo "<p>HELLO WORLD THIS IS <u><b>$name<b></u></p>" ;
+		echo "<p>My age is <u><b>$age<b></u> years</p>" ;
+		echo "<p>what is this <u><b>$name<b></u> ?</p>" ;
+		echo "<p>for this <u><b>$age<b></u> years of age, I must be active</p>" ;
+		echo "<p>It's ok <u><b>$name<b></u></p>" ;
+
+
+	?>
+
+</body>
+</html>
