@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP Site</title>
+</head>
+<body>
+
+	<?php
+
+	$string = "To be or not to be...";
+	$number= 33;
+	$negativenumber=-55;
+	$decimalnumber=63.21458756325;
+	$booleanvalue=false;
+	echo "this is a string - $string <br>";
+	echo "this is natural number - $number <br>";
+	echo "this is negative number - $negativenumber <br>";
+	echo "this is decimal number - $decimalnumber <br>";
+	echo "this is boolean value - $booleanvalue <br>";	
+
+
+	?>
+
+</body>
+</html>
