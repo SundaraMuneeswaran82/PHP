@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PHP Strings</title>
+</head>
+<body>
+
+	<b>Reference Link :</b><a href="https://www.w3schools.com/php/php_ref_string.asp"> STRINGS</a><br>
+	<br>
+	<hr>
+	<?php
+
+	ECHO "this is a simple string printed with <b>ECHO</b> instaed of echo <br>";
+	echo "this is a simple string printed with <b>echo</b> instaed of ECHO<br>";	
+	$stringexample="THiS Is a STrInG exAMplE";
+	echo "consider this example string - $stringexample <br>";
+	echo "this is lower case string - ";
+	echo strtolower($stringexample);
+	echo "<br> this is upper case string - "; 
+	echo strtoupper($stringexample);
+	echo "<br> this is length of considered string - "; 
+	echo strlen($stringexample);
+	echo "<br> the first character in string is (index 0) - ";
+	echo $stringexample[0];
+	echo "<br>the second character in string is (index 1) - ";
+	echo $stringexample[1];
+	echo "<br>the last character in string is - ";
+	echo $stringexample[strlen($stringexample)-1];
+	echo "<br>the character in string has space and we print it - ";
+	echo $stringexample[4];
+	$stringexample[8]="j";
+	echo "<br> In the above string, character 'a' is replaced with charcter 'j' - ";
+	echo $stringexample;
+	echo $stringexample[4];
+	$stringexample[8]=" ";
+	echo "<br> In the above string, character 'a' is replaced with some empty space - ";
+	echo $stringexample;
+	echo "<br> In the above string, string 'STrInG' is replaced with 'ReplacedString' - ";
+	// str_replace(name of the string variable, new string, old string )
+	echo str_replace("STrInG", "ReplacedString", $stringexample);
+	echo "<br> In the above string, a sub-string 'STrInG' is extracted - ";
+	// substr(name of the string variable, starting index, no. of characters)
+	echo substr($stringexample, 10, 15);
+	echo "<br> In the above string, a sub-string 'exAMplE' is extracted from 'e'to till last- ";
+	echo substr($stringexample, 17);
+	echo "<br> In the above string, no. of words - ";
+	echo str_word_count($stringexample);
+	echo "<br> The reversed string for the above string - ";
+	echo strrev($stringexample);
+
+	?>
+
+</body>
+</html>
